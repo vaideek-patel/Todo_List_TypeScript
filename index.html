@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList - Designed in TypeScript</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Font Awesome CSS -->
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to TodoList - Designed in TypeScript</h1>
+
+        <div class="todo-container">
+            <h3>Add Your Tasks Below!</h3>
+            <form id="new-task-form">
+                <input type="text" id="inputField" placeholder="Enter Task">
+                <button type="submit">ADD</button>
+            </form>
+            <ul id="list"></ul>
+
+            <div id="completed-tasks">
+                <h3>Completed Tasks</h3>
+                <ul id="completed-list"></ul>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="src/index.ts"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #ffffff; /* Set background color */
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    text-align: center;
+    /* color: #000000; */
+    margin-top: 20px;  
+}
+
+.todo-container {
+    text-align: center;
+    margin: 0 100px;
+    padding: 20px;
+}
+
+#list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#list li {
+    margin-bottom: 10px;
+}
+
+#new-task-form {
+    margin-top: 10px;
+}
+
+#inputField {
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #caf0f8;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #caf0f8;
+}
+
+
+/* Add some styles for the completed tasks section */
+#completed-tasks {
+    margin-top: 100px;
+}
+
+#completed-tasks h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#completed-list {
+    list-style-type: none;
+    padding: 0;
+}
